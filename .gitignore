@@ -206,3 +206,4 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 fine-tuned-multiclass-bias-model/model.safetensors
+"fine-tuned-multiclass-bias-model/" 

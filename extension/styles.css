@@ -1,0 +1,46 @@
+.ln-highlight { background: rgba(255, 200, 0, 0.35); padding: 0 1px; border-radius: 2px; }
+.ln-icon { width: 18px; height: 18px; display: inline-flex; vertical-align: middle; margin-left: 4px; cursor: pointer; }
+.ln-tooltip { position: absolute; z-index: 999999; max-width: 320px; background: #111; color: #fff; padding: 10px; border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.35); font: 13px/1.4 system-ui; }
+.ln-tooltip h4 { margin: 0 0 6px; font-size: 13px; }
+.ln-tooltip button { margin-top: 8px; padding: 6px 10px; border: 0; border-radius: 6px; cursor: pointer; }
+.ln-tooltip .meta { opacity: .8; font-size: 12px; }
+
+.ln-icon {
+  transition: transform 0.2s;
+}
+.ln-icon:hover {
+  transform: scale(1.15);
+}
+.ln-dialog h3 {
+  margin-top: 0;
+  color: #b30000;
+}
+.ln-dialog ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.ln-dialog ul li {
+  font-size: 14px;
+  margin: 2px 0;
+}
+.ln-dialog button {
+  background: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.ln-dialog button:hover {
+  background: #ffdd33;
+}
+.ln-dialog h3 {
+  margin-top: 0;
+  color: #b30000;
+}
+.ln-dialog ul {
+  margin: 10px 0;
+}
+.ln-dialog button:hover {
+  background: #ffdd33;
+}
