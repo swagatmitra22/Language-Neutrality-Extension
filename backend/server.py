@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 from suggestor_adapter import predict_with_probs, token_attributions, LABEL_MAP
 
 # Load environment variables
-load_dotenv()
+root_env_path = os.path.join(os.path.dirname(__file__), '..', '.env')
+load_dotenv(root_env_path)
 
 # Initialize FastAPI app
 app = FastAPI(title="Language Neutrality API", version="1.0")
